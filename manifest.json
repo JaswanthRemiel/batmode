@@ -1,0 +1,22 @@
+{
+    "name" : "Batmode" ,
+    "description" : "Batmode is a browser extension that enables a dark mode theme on all websites.",
+    "version":"1.0.0",
+    "manifest_version":2,
+    "background":{
+        "scripts":[
+            "popup.js"
+        ],
+        "persisten":true
+    },
+    "browser_action":{
+        "default_title":"Batmode",
+        "default_icon": "batmode.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":[
+        "https://*/*",  
+        "http://*/*",
+        "tabs"
+    ]
+}
