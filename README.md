@@ -1,9 +1,8 @@
-<h1 align="center" class="title">Batmode</h1> 
-<img src = "https://github.com/user-attachments/assets/9578cadc-7c00-4142-b74b-2f6eeb104a8d" alt="project-screenshot" width=100%>
-<br>
-<br>
+<h1 align="left" class="title">Batmode</h1> 
 
-**Batmode** is a Chrome extension that instantly enables dark mode across any website, giving your eyes the comfort they deserve. With one click, transform your browsing experience and enjoy a sleek, modern, and eye-friendly dark theme.
+**Batmode** is a Chrome extension that instantly enables dark mode across any website, giving your eyes the comfort they deserve. With one click, transform your browsing experience and enjoy a sleek, modern, and eye-friendly dark theme. <br>
+
+![Demo](https://github.com/user-attachments/assets/9578cadc-7c00-4142-b74b-2f6eeb104a8d)
 
 ## Features ✨
 - 🌙 **Universal Dark Mode**: Works on all websites, even those without native dark mode.
