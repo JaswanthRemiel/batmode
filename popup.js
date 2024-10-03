@@ -31,3 +31,6 @@ if (document.querySelector(".popup")) {
     })
 
 } 
+function openLink() {
+    window.open("https://github.com/jaswanthremiel/batmode", "_blank"); // Opens in a new tab
+}
