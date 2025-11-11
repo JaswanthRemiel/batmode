@@ -1,7 +1,19 @@
 if (document.querySelector(".popup")) {
     const button = document.querySelector(".button");
     const circle = document.querySelector(".circle")
-    let buttonOn = false;
+    let buttonOn = true;
+    
+    // Initialize button to "On" state
+    button.style.backgroundColor = "#8ABFF0";
+    circle.style.left = "100%";
+    circle.style.transform = "translateX(-100%)";
+    circle.style.backgroundColor = "#588BE4";
+    
+    // Apply dark mode to current tab on load
+    chrome.tabs.executeScript({
+        file: 'appON.js'
+    })
+    
     function invert() {
         alert("hi")
         document.body.style.filter = "invert(1) hue-rotate(180deg)";
