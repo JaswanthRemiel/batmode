@@ -13,7 +13,7 @@
 ## Installation 📥
 1. Download or clone this repository.
    
-   ```bash git clone https://github.com/jaswanthremiel/batmode ```
+   ```git clone https://github.com/jaswanthremiel/batmode ```
 3. Open Chrome and navigate to ```chrome://extensions/ ```
 4. Enable Developer mode (top right).
 Click Load unpacked and select the folder where you cloned Batmode.
